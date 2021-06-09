@@ -1,0 +1,112 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Carla Ramirez Otalvaro",
+      "identificacion": "476574567",
+      "edad": "10",
+      "telefono": "321349458",
+      "genero": "f",
+      "profesion": "Bailarina",
+      "id": 1
+    },
+    {
+      "nombre": "Jeronimo Tobon Cardona",
+      "identificacion": "265547",
+      "edad": "20",
+      "telefono": "325435435",
+      "genero": "m",
+      "profesion": "Taxista",
+      "id": 2
+    },
+    {
+      "nombre": "Lina Molina Aristizabal",
+      "identificacion": "2573648",
+      "edad": "25",
+      "telefono": "363454746",
+      "genero": "f",
+      "profesion": "Programador",
+      "id": 3
+    },
+    {
+      "nombre": "Julian Main Osorio",
+      "identificacion": "12325436",
+      "edad": "30",
+      "telefono": "536572341385",
+      "genero": "m",
+      "profesion": "Administrador",
+      "id": 4
+    },
+    {
+      "nombre": "Maximiliano Rodriguez",
+      "identificacion": "235634785",
+      "edad": "42",
+      "telefono": "248753687263",
+      "genero": "m",
+      "profesion": "Conductor",
+      "id": 5
+    },
+    {
+      "nombre": "Luisa Main Montoya",
+      "identificacion": "16434678",
+      "edad": "22",
+      "telefono": "32492368",
+      "genero": "f",
+      "profesion": "Piloto",
+      "id": 6
+    },
+    {
+      "nombre": "Mariana Velasquez Rios",
+      "identificacion": "685663765",
+      "edad": "35",
+      "telefono": "4329877",
+      "genero": "f",
+      "profesion": "Pintora",
+      "id": 7
+    },
+    {
+      "nombre": "Daniel Ramirez Orozco",
+      "identificacion": "36754863",
+      "edad": "50",
+      "telefono": "32734859",
+      "genero": "o",
+      "profesion": "Astronauta",
+      "id": 8
+    },
+    {
+      "nombre": "Michael Rodriguez Villa",
+      "identificacion": "25645746",
+      "edad": "54",
+      "telefono": "32484592",
+      "genero": "m",
+      "profesion": "Cantante",
+      "id": 9
+    },
+    {
+      "nombre": "Luis Arango Vélez",
+      "identificacion": "346367578",
+      "edad": "44",
+      "telefono": "258325675",
+      "genero": "m",
+      "profesion": "Congresista",
+      "id": 10
+    },
+    {
+      "nombre": "Carolina Montoya Arango",
+      "identificacion": "23245346",
+      "edad": "22",
+      "telefono": "2334606359",
+      "genero": "f",
+      "profesion": "Contadora",
+      "id": 11
+    },
+    {
+      "nombre": "Maria Camila Molina Molina",
+      "identificacion": "34364574",
+      "edad": "33",
+      "telefono": "34364576",
+      "genero": "f",
+      "profesion": "Abogada",
+      "id": 12
+    }
+  ]
+}

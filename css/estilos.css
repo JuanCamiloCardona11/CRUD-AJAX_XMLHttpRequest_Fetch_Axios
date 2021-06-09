@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-may-2021, 14:30:44
+    Author     : JuanCamiloC
+*/
+
+body {
+   background-color:slategrey;
+   font-family: 'JetBrains Mono',
+   monospace;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#form-ingreso {    
+    width: 40%;
+    margin: 20px auto;    
+    text-align: center;   
+}
+
+.form-ingreso__label {
+   font-weight:600;   
+}
+
+.form__input {
+    display: block;
+    background-color:#ccc;
+    height: 30px;      
+    width: 60%;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 10px auto;
+    margin-bottom:30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight:700;    
+}
+
+.form__input::placeholder {
+   color:#333;
+   padding-left: 5px;
+   margin-left: 5px;
+}
+
+#btn-ingreso{
+    width: 5%;
+    height: 30px; 
+    max-width: 200px;
+    min-width: 140px;
+}
+
+.form-ajax {
+   margin-top: 40px;
+   display: flex;
+   justify-content: center;      
+}
+
+.users-table__head {
+   font-weight: 600;   
+}
+
+.users-table__head td {
+   padding: 10px 10px;   
+   font-size: 18px;      
+   font-weight:900;
+}
+
+.users-table{
+   text-align:center;
+   font-weight:600;
+}
+
+.template__button {
+   background-color:#999;
+   padding:10px;
+   border-radius: 5px;
+   border: 1px solid black;
+   font-weight: 600;
+}
+
+
+
+

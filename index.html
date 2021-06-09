@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="es">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Juan Camilo Cardona Calderón">
+   <meta name="keywords" content="AJAX, XMLHttpRequest, Fetch, Axios, HTTP">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/estilos.css">
+   <title>AJAX | xhr, fetch, axios</title>
+</head>
+
+<body>
+   <h1>AJAX | xhr, fetch, axios</h1>
+   <section class="container">
+      <form id="form-ingreso" name="form__ingreso">
+         <!--Input de tipo hidden para el id de la persona-->
+         <input type="hidden" name="id">
+         <label class="form-ingreso__label" for="nombre">Nombre completo</label>
+         <input type="text" id="nombre" class="form__input" name="nombre" placeholder="Ingrese aquí su nombre completo"
+            maxlength="50" required>
+         <label class="form-ingreso__label" for="identificacion">Identificación</label>
+         <input type="text" id="identificacion" class="form__input" name="identificacion"
+            placeholder="Ingrese aquí su cédula" maxlength="50" required>
+         <label class="form-ingreso__label" for="cantidad">Edad</label>
+         <input type="number" id="edad" class="form__input" name="edad" placeholder="Ingrese aquí su edad"
+            maxlength="50" required>
+         <label class="form-ingreso__label" for="nombre">Teléfono</label>
+         <input type="string" id="telefono" class="form__input" name="telefono" placeholder="Ingrese aquí su teléfono"
+            maxlength="50" required>
+         <label class="form-ingreso__label" for="precio">Género</label>
+         <select name="genero" class="form__input" id="genero">
+            <option value="m">Masculino</option>
+            <option value="f">Femenino</option>
+            <option value="o">Otro</option>
+         </select>
+         <label class="form-ingreso__label" for="profesion">Profesión</label>
+         <input type="text" id="profesion" class="form__input" name="profesion" placeholder="Ingrese aquí su profesión"
+            maxlength="50" required>
+         <label class="form-ingreso__label">Método AJAX</label>
+         <div class="form-ajax">
+            <div class="form-ajax__div">
+               <label class="form-ingreso__label" for="form-ajax__xhr">XMLHttpRequest</label>
+               <input type="radio" class="form__input form__input--checkbox" id="form-ajax__xhr" value="xhr"
+                  name="opc_AJAX" checked>
+            </div>
+            <div class="form-ajax__div">
+               <label class="form-ingreso__label" for="form-ajax__fetch">Fetch</label>
+               <input type="radio" class="form__input form__input--checkbox" id="form-ajax__fetch" value="fetch"
+                  name="opc_AJAX">
+            </div>
+            <div class="form-ajax__div">
+               <label class="form-ingreso__label" for="form-ajax__axios">Axios</label>
+               <input type="radio" class="form__input form__input--checkbox" id="form-ajax__axios" value="axios"
+                  name="opc_AJAX">
+            </div>
+         </div>
+         <input type="submit" id="btn-ingreso" class="form__input btn-ingreso" value="Ingresar Usuario">
+      </form>
+   </section>
+   <section class="container">
+      <table class="users-table">
+         <thead class="users-table__head">
+            <tr>
+               <td>Id.</td>
+               <td>Nombre Completo</td>
+               <td>Identificación</td>
+               <td>Edad</td>
+               <td>Teléfono</td>
+               <td>Género</td>
+               <td>Profesion</td>
+               <td>Acción</td>
+            </tr>
+         </thead>
+         <tbody class="users-table__body"></tbody>
+      </table>
+   </section>
+   <template id="tbody-template">
+      <tr>
+         <td class="template__id"></td>
+         <td class="template__nombre"></td>
+         <td class="template__identificacion"></td>
+         <td class="template__edad"></td>
+         <td class="template__telefono"></td>
+         <td class="template__genero"></td>
+         <td class="template__profesion"></td>
+         <td class="template__accion">
+            <button class="template__button btn-editar">Editar Usuario</button>
+            <button class="template__button btn-eliminar">Eliminar Usuario</button>
+         </td>
+      </tr>
+   </template>
+   <script src="js/app.js"></script>
+</body>
+
+</html>
